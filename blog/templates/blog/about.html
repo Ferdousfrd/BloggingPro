@@ -1,0 +1,16 @@
+{% extends "blog/layout.html" %}
+
+{% block title %}
+    {% if title %}
+        {{ title }}
+    {% else %}
+        {{ Blogs }}
+    {% endif %}
+{% endblock %}
+
+{% block body %}
+    {{ message }}
+    <br>
+    
+    <a href="{% url 'about_view' %}">Home</a>
+{% endblock %}

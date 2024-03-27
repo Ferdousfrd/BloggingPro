@@ -1,0 +1,22 @@
+{% extends "blog/layout.html" %}
+
+{% block title %}
+    {% if title %}
+        {{ title }}
+    {% else %}
+        Home
+    {% endif %}
+{% endblock %}
+
+
+{% block body %}
+    {% for post in post_content %}
+        <h1> {{ post.title }} </h1>
+        <p>{{ post.title }}</p>
+        <p>{{ post.content }}</p>
+        <p>{{ post.date_posted }}</p>
+    {% endfor %}
+
+    <a href="{% url 'about_view' %}">About</a>
+
+{% endblock %}
