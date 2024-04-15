@@ -18,3 +18,6 @@ def register(request):
     return render(request, 'users/register.html', {
         'form' : form
     })
+
+def logout_success(request):
+    return render(request, 'users/logout.html')
