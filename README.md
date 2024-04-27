@@ -35,9 +35,10 @@ The Django Blog application utilizes the following Python libraries:
 
 To install these libraries, run the following command:
 
-```bash
+    ```bash
 pip install -r requirements.txt
-
+    ```
+    
 ## Setup
 
 To get started with this project, follow these steps:
