@@ -6,6 +6,7 @@ A web app to get the latest Janka news and stay connected with friends and neigh
 
 - [Project Overview](#project-overview)
 - [Features](#features)
+- [Used Libraries](#used-libraries)
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -22,6 +23,20 @@ This is a python django web application for Janka residance to interact with the
 - CRUD operations for managing news posts
 - Pagination for displaying a list of blog posts
 - User-friendly interface with responsive design
+
+## Used Libraries
+
+The Django Blog application utilizes the following Python libraries:
+
+- **Django**: A high-level Python web framework for rapid development of secure and maintainable web applications.
+- **Pillow**: A Python Imaging Library (PIL) fork that adds image processing capabilities to Django, including image upload and manipulation.
+- **django-crispy-forms**: A Django application that helps to manage Django forms in a DRY (Don't Repeat Yourself) way.
+- **django-crispy-bootstrap5**: A Django template pack for crispy-forms, designed to work with Bootstrap 5 for styling forms.
+
+To install these libraries, run the following command:
+
+```bash
+pip install -r requirements.txt
 
 ## Setup
 

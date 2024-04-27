@@ -9,8 +9,18 @@
 {% endblock %}
 
 {% block body %}
-    {{ message }}
-    <br>
+    <div>
+        <h2>User Manual</h2>
+        <br>
+        <ol>
+            <li><strong>Register/Login:</strong> If you're a new user, register for an account using the registration form. If you already have an account, log in using your credentials.</li>
+            <li><strong>View Posts:</strong> Once logged in, you'll be redirected to the home page where you can view a list of posts. Click on a post title to view its details.</li>
+            <li><strong>Create a New Post:</strong> To create a new post, navigate to the "New Post" page using the navigation menu or the link provided. Fill out the form with the title and content of your post, then click "Submit" to publish it.</li>
+            <li><strong>Edit/Delete Post:</strong> If you're the author of a post, you'll see options to edit or delete the post on the post detail page. Click on the "Edit" button to update the post content or the "Delete" button to remove the post from the database.</li>
+            <li><strong>View User Profile:</strong> You can view your user profile by clicking on your username in the navigation menu. From the profile page, you can update your profile information and change your profile picture.</li>
+            <li><strong>Logout:</strong> When you're done using the application, click on the "Logout" button in the navigation menu to log out of your account.</li>
+            <li><strong>Additional Features:</strong> Explore other features of the application, such as searching for posts, filtering posts by category or tag, commenting on posts, and sharing posts on social media.</li>
+        </ol>
+    </div>
     
-    <a href="{% url 'home_view' %}">Home</a>
 {% endblock %}
